@@ -1,0 +1,233 @@
+.cart-container {
+    margin-top: 150px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.cart-product-conatiner {
+    /* width: 500px; */
+    margin: 0px 50px;
+}
+
+.cart-product-item-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 5px;
+    /* border-left: none;
+    border-right: none; */
+    width: 700px;
+    padding: 10px;
+    margin: 20px 0px;
+}
+.cart-product-inner-item-container {
+    display: flex;
+    cursor: pointer;
+}
+.cart-product-description-container {
+    margin: 0px 20px;
+}
+
+.cart-image {
+    width: 100px;
+    height: 120px;
+}
+
+.cart-product-brand-name {
+    font-family: 'Franklin';
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+.cart-product-description {
+    font-family: 'Franklin';
+    font-size: 13px;
+    color: #282c3f;
+}
+.cart-price-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 5px 0px;
+
+}
+.cart-product-price {
+    font-family: 'Franklin';
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.cart-actual-product-price {
+    font-family: 'Franklin';
+    font-size: 15px;
+    color: #94969f;
+    font-weight: bold;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+.cart-product-price-discount {
+    font-family: 'Franklin';
+    font-size: 13px;
+    color: #ff905a;
+}
+.cart-amount-main-conatainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0px 50px;
+}
+.cart-amount-container {
+    width: 100%;
+    border: 1px solid rgb(212, 210, 210);
+    padding: 20px;
+    border-radius: 5px;
+    height: 200px;
+    margin: 20px 0px;
+}
+.cart-amount-price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+.cart-amount-heading {
+    font-family: 'Franklin';
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+.cart-amount-price {
+    font-family: 'Franklin';
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+}
+.place-order-btn {
+    font-family: 'Franklin';
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+    background-color: #d0c2b140;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+.cart-gift-card-container {
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 210, 210);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gift-card-btn {
+    width: 100%;
+    height: 50px;
+    font-family: 'Franklin';
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+.cart-delete-btn {
+    cursor: pointer;
+    font-size: 20px;
+}
+.cart-hr-line {
+    border: 0.5px solid rgb(212, 210, 210);
+}
+
+.cart-gift-card-inner-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0px;
+    border: 1px solid #d4d2d2;
+}
+
+.cart-custom-input {
+    width: 80%;
+    height: 40px;
+    border-right: 1px solid #d4d2d2;
+    outline: none;
+    font-family: 'Franklin';
+    font-size: 12px;
+    color: #000;
+    padding: 10px;
+
+}
+
+.cart-gift-cart-apply-btn {
+    font-family: 'Franklin';
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+}
+.cart-gift-cart-apply-btn:hover {
+    background-color: #d0c2b140;
+    border: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .cart-container {
+        margin-top: 100px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* content: ; */
+    }
+    .cart-product-conatiner  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px;
+    }
+    .cart-product-item-container {
+        width: 100%;
+        border: none;
+        /* margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    .cart-product-brand-name {
+        font-size: 13px;
+    }
+    .cart-amount-main-conatainer {
+        /* display: flex; */
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .cart-amount-container {
+        width: 90%;
+        border: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    .cart-gift-card-container {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gift-card-btn {
+        width: 90%;
+        margin: 0px;
+    }
+}

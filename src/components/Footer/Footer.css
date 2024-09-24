@@ -1,0 +1,106 @@
+.footer-main-container {
+    margin-top: 50px;
+    /* bottom: 0;
+    width: 100%;
+    position: fixed; */
+}
+.social-media-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 7%;
+    background-color: #d0c2b140;
+    /* margin: 0px 7%; */
+}
+.footer-heading {
+    font-family: 'Franklin';
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+}
+.social-media-inner-container {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-media-icon {
+    font-size: 20px;
+}
+.footer-about-section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0px;
+    padding: 10px 0px;
+    /* background-color: #d0c2b140; */
+}
+.footer-content-heading {
+    font-family: 'Franklin';
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+.footer-content-text {
+    font-family: 'Franklin';
+    font-size: 12px;
+    color: #000;
+}
+.footer-horizontal-line {
+    width: 100%;
+    border: 1px solid #d0c2b140;
+}
+.footer-payment-accept-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    margin: 0px 7%;
+}
+.footer-payment-accept-heading {
+    font-family: 'Franklin';
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    line-height: 50px;
+}
+.footer-payment-accept-image {
+    width: 200px;
+}
+.copyright-heading {
+    font-family: 'Franklin';
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) { 
+    .social-media-container {
+        padding: 3% 7%;
+    }
+    .footer-heading {
+        font-size: 12px;
+    }
+    .social-media-inner-container {
+        width: 40%;
+    }
+    .social-media-icon {
+        font-size: 15px;
+    }
+    .footer-content-heading {
+        font-size: 8px;
+    }
+    .footer-content-text {
+        font-size: 7px;
+    }
+    .copyright-heading {
+        font-size: 6px;
+    }
+    .footer-payment-accept-heading  {
+        font-size: 6px;
+        line-height: 20px;
+    }
+    .footer-payment-accept-image  {
+        width: 100px;
+    }
+}

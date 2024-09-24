@@ -1,0 +1,36 @@
+.custom-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.custom-input-label {
+    font-family: 'Franklin';
+    font-size: 15px;
+    color: #000;
+}
+.custom-input {
+    width: 50%;
+    height: 40px;
+    border: 1px solid #d0c2b140;
+    outline: none;
+    margin: 20px 0px;
+    padding: 5px;
+    font-family: 'Franklin';
+    font-size: 15px;
+    color: #000;
+}
+.error-input {
+    background-color: #ff000014;
+    border: 1px solid rgb(247, 76, 76);
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-input-container {
+        flex-direction: column;
+        align-items: start;
+    }
+    .custom-input {
+        width: 100%;
+        margin: 10px 0px;
+    }
+}

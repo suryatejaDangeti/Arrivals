@@ -1,0 +1,100 @@
+.empty-wishlist-container {
+    margin-top: 100px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wishlist-empty-image {
+    width: 200px;
+    height: 200px;
+}
+.empty-wishlist-text {
+    font-family: 'Franklin';
+    font-size: 15px;
+    color: #000;
+    margin: 10px 0px;
+}
+.wishlist-continue-shopping-button {
+    width: 150px;
+    height: 40px;
+    font-family: 'Franklin';
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.wishlist-continue-shopping-button:hover {
+    background-color: #f4f0ec;
+    border: none;
+}
+.wishlist-container {
+    margin: 200px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.wishlist-item-conainer {
+    margin: 20px;
+}
+
+.wishlist-image {
+    width: 200px;
+    height: 250px;
+}
+.wishlist-btn-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0px;
+}
+.wishlist-add-to-bag-btn {
+    width: 150px;
+    height: 40px;
+    background-color: #d0c2b140;
+    font-family: 'Franklin';
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+.wishlist-remove-btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) { 
+    .wishlist-container {
+        margin: 100px 0px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .wishlist-image {
+        width: 150px;
+        height: 170px;
+    }
+    .wishlist-item-conainer {
+        margin: 0px;
+        /* margin-left: 20px;
+        margin-right: 10px; */
+        margin-bottom: 20px;
+    }
+    .wishlist-add-to-bag-btn {
+        width: 100px;
+    }
+    .wishlist-remove-btn {
+        width: 35px;
+        height: 35px;
+    }
+}

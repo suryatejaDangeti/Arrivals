@@ -1,0 +1,76 @@
+.recently-viewed-main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0; /* Adjust padding for spacing */
+}
+
+.recently-viewed-heading {
+    font-family: 'Franklin';
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.recently-viewed-container {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Ensures items stay in a single line */
+    padding-bottom: 20px; /* Adds space for the scrollbar */
+}
+
+.recently-viewed-product-container {
+    display: inline-block;
+    width: 200px; /* Fixed width for each product */
+    height: 300px;
+    margin-right: 20px; /* Space between products */
+    vertical-align: top; /* Ensures alignment */
+    white-space: normal; /* Allows wrapping of text */
+    background-color: #fff; /* White background for each product */
+    border: 1px solid #eee; /* Light border for separation */
+    border-radius: 8px;
+    padding: 10px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease-in-out; /* Smooth transition effect */
+}
+
+.recently-viewed-product-container:hover {
+    transform: translateY(-5px); /* Lifts the product on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow on hover */
+}
+
+.recently-viewed-image {
+    width: 100%; /* Ensures the image fills its container */
+    height: auto; /* Maintains aspect ratio */
+    max-height: 180px; /* Limit max height to prevent oversized images */
+    object-fit: contain; /* Scales the image to fit within its container */
+    border-radius: 8px;
+    margin-bottom: 10px; /* Adds space between image and product name */
+}
+
+.recently-viewed-product-name {
+    font-family: 'Franklin';
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4; /* Ensures readability */
+}
+
+@media only screen and (max-width: 768px) {
+    .recently-viewed-product-container {
+        width: 150px; /* Adjust width of products on smaller screens */
+        margin-right: 10px; /* Adjust spacing between products */
+    }
+
+    .recently-viewed-container {
+        padding-bottom: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .recently-viewed-heading {
+        font-size: 16px; /* Adjust heading font size for smaller screens */
+    }
+}

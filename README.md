@@ -1,7 +1,23 @@
-# Getting Started with Create React App
+Home page
 <img width="1724" alt="Screenshot 2024-09-24 at 7 42 23 PM" src="https://github.com/user-attachments/assets/bee2a23a-a65c-49fb-90ff-f5f92a8a4626">
+Product listing page
+![image](https://github.com/user-attachments/assets/005951b2-8047-4030-ad13-13e857ce00b8)
+Product detail page
+![image](https://github.com/user-attachments/assets/6ed50132-1e77-4469-872e-ee7c3f6ee166)
+Cart page
+![image](https://github.com/user-attachments/assets/42740b27-574c-4d73-bec9-34063c7e87ca)
+Wishlist page
+![image](https://github.com/user-attachments/assets/669df996-eebb-463c-aed2-c387dd98febb)
+Login page
+![image](https://github.com/user-attachments/assets/2fcfe856-6f11-49b0-94a0-3f069ac3e4aa)
 
 
+
+
+
+
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
